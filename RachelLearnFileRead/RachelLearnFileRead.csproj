@@ -42,11 +42,19 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Factories\GillProcessor.cs" />
+    <Compile Include="Factories\StringArrayToFileWriter.cs" />
+    <Compile Include="Factories\TransactionReportFactory.cs" />
+    <Compile Include="Models\AvaleraLine.cs" />
+    <Compile Include="Models\GillLine.cs" />
+    <Compile Include="Models\TransactionsToVoid.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Factories\AvaleraProcessor.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
